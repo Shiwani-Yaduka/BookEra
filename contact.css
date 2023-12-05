@@ -1,0 +1,55 @@
+body {
+    background-image: url('https://img.freepik.com/premium-photo/close-up-bunch-books-shelf-generative-ai_900775-35362.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+}
+
+.container {
+    background-color: #10c7ce;
+    border-radius: 5px;
+    padding: 90px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+    height: 550px;
+}
+
+h2 {
+    margin: 0 0 20px;
+    color: #333;
+}
+
+.input-container {
+    margin: 10px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #f4f6f8;
+    color: #07898e;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #869d9d;
+}
+

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact Us</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Review</h2>
+        <form id="contactForm" action="book.html">
+            <div class="input-container">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="input-container">
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="input-container">
+                <label for="book">Book Name</label>
+                <input type="book" id="book" required>
+            </div>
+            <div class="input-container">
+                <label for="message">Message:</label>
+                <textarea id="message" rows="10" placeholder="Write a review here......." required></textarea>
+            </div>
+            <button type="submit" onclick="alert('Review has been submitted.')">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
